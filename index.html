@@ -1,67 +1,68 @@
 <!DOCTYPE HTML>
 <html>
 
-<head>
-	<title>NADAL 2020 - Felicitació AMPA</title>
-	<style>
-		h1 {
-			color: #111;
-			font-family: 'Helvetica Neue', sans-serif;
-			font-size: 100px;
-			font-weight: bold;
-			background: linear-gradient(90deg, rgba(67,198,172,1) 0%, rgba(80,75,176,1) 100%);
-			-webkit-background-clip: text;
-  			-webkit-text-fill-color: transparent;
-			letter-spacing: -1px;
-			line-height: 1;
-			text-align: center;
-		}
+  <head>
+    <title>NADAL 2020 - Felicitació AMPA</title>
+    <style>
+      h1 {
+        color: #111;
+        font-family: 'Helvetica Neue', sans-serif;
+        font-size: 100px;
+        font-weight: bold;
+        background: linear-gradient(90deg, rgba(67, 198, 172, 1) 0%, rgba(80, 75, 176, 1) 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        letter-spacing: -1px;
+        line-height: 1;
+        text-align: center;
+      }
 
-		h4 {
-			color: #525252;
-			font-family: 'Helvetica Neue', sans-serif;
-			font-size: 30px;
-			font-weight: bold;
-			letter-spacing: -1px;
-			line-height: 1;
-			text-align: center;
-		}
+      h4 {
+        color: #525252;
+        font-family: 'Helvetica Neue', sans-serif;
+        font-size: 30px;
+        font-weight: bold;
+        letter-spacing: -1px;
+        line-height: 1;
+        text-align: center;
+      }
 
-		h5 {
-			color: #525252;
-			font-family: 'Helvetica Neue', sans-serif;
-			font-size: 15px;
-			font-weight: bold;
-			letter-spacing: 0px;
-			line-height: 1;
-			text-align: center;
-			position: fixed;
-			bottom: 0;
-			right: 30px;
-			padding: 11px 13px 12px 12px;
-			border-radius: 13px;
-			box-shadow: 5px 5px 23px 5px rgba(0, 0, 0, 0.25);
-			line-height: 1.2em
-		}
-	</style>
+      h5 {
+        color: #525252;
+        font-family: 'Helvetica Neue', sans-serif;
+        font-size: 15px;
+        font-weight: bold;
+        letter-spacing: 0px;
+        line-height: 1;
+        text-align: center;
+        position: fixed;
+        bottom: 0;
+        right: 30px;
+        padding: 11px 13px 12px 12px;
+        border-radius: 13px;
+        box-shadow: 5px 5px 23px 5px rgba(0, 0, 0, 0.25);
+        line-height: 1.2em
+      }
 
-</head>
+    </style>
 
-<body>
-	<h1 id="quote"></h1>
-	<h4>Recarrega la pàgina per a una altre frase.</h4>
-	<h5>© Jordi Castro i Àlex Figueras - 2020</h5>
-</body>
+  </head>
 
-<script>
-	var myArray = ['Bones Festes i Bon Nadal!', 'Ja és Nadal al mercadal.', 'Per Nadal, cada ovella al seu corral.', 'A qui pessebre fa, no li manca pa.', 'Pessebre fas, pa menjaràs.', 'Per Nadal, qui res no estrena res no val.', 'Per Sant Esteve, cada ovella a casa seva.', 'A Nadal, el pessebre cal.', "Al bou vell, muda-li el pessebre i se'n farà la pell.", 'El foc, el pessebre i la mar sempre tenen per mirar.'];
-    var rand = Math.floor(Math.random() * myArray.length);
+  <body>
+    <h1 id="quote"></h1>
+    <h4>Recarrega la pàgina per a una altre frase.</h4>
+    <h5>© Jordi Castro i Àlex Figueras - 2020</h5>
 
-    function showquote() {
-      document.getElementById('quote').innerHTML = myArray[rand];
-    }
-    showquote();
+    <script>
+      var myArray = ['Bones Festes i Bon Nadal!', 'Ja és Nadal al mercadal.', 'Per Nadal, cada ovella al seu corral.', 'A qui pessebre fa, no li manca pa.', 'Pessebre fas, pa menjaràs.', 'Per Nadal, qui res no estrena res no val.', 'Per Sant Esteve, cada ovella a casa seva.', 'A Nadal, el pessebre cal.', "Al bou vell, muda-li el pessebre i se'n farà la pell.", 'El foc, el pessebre i la mar sempre tenen per mirar.'];
+      var rand = Math.floor(Math.random() * myArray.length);
 
-</script>
+      function showquote() {
+        document.getElementById('quote').innerHTML = myArray[rand];
+      }
+      showquote();
 
-</html>
+    </script>
+
+  </body>
+
